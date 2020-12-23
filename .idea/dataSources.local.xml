@@ -2,8 +2,12 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="bank" uuid="602d5887-1b56-4a14-86a8-e37689abc09d">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <database-info product="SQLite" version="3.25.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.25.1" dbms="SQLITE" exact-version="3.25.1" exact-driver-version="3.25">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>forget</secret-storage>
+      <auth-required>false</auth-required>
       <schema-mapping>
         <introspection-scope>
           <node kind="schema" negative="1" />

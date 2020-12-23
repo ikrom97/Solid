@@ -16,6 +16,9 @@ func main() {
 	router := httprouter.New()
 	svc := services.NewUserSvc(DB)
 	server := app.NewMainServer(DB, router, svc)
+
+
+
 	server.Start(DB)
 }
 
